@@ -1,4 +1,9 @@
 package com.itjun.dao.impl;
 
-public class BookDaoImpl {
+import com.itjun.dao.BookDao;
+
+public class BookDaoImpl  implements BookDao {
+    public void save() {
+        System.out.println("保存啦！");
+    }
 }
